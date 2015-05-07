@@ -49,6 +49,19 @@ hr {
 	text-transform: uppercase;
 }
 
+.works {
+	text-align: center;
+}
+
+.work-img {
+	display: inline;
+}
+
+
+.work {
+	margin-bottom: 3em;
+}
+
 .git-link {
 	color: #bcbbbb;
 }
