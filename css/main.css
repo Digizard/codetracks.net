@@ -34,6 +34,7 @@ header {
 	text-transform: uppercase;
 }
 
+/* Help with this from http://www.syntaxxx.com/how-to-style-hr-with-css/ */
 hr {
 	background-color: #bcbbbb;
 	border: 0;
