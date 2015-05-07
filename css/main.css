@@ -3,9 +3,6 @@
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
-}
-
-* {
 	color: #5e6754;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
@@ -31,6 +28,12 @@ h3 {
 	text-transform: uppercase;
 }
 
+header {
+	margin-top: 10px;
+	text-align: right;
+	text-transform: uppercase;
+}
+
 hr {
 	background-color: #bcbbbb;
 	border: 0;
@@ -43,23 +46,16 @@ hr {
 	font-size: 1.5em;
 }
 
-.header {
-	margin-top: 10px;
-	text-align: right;
-	text-transform: uppercase;
-}
-
 .works {
 	text-align: center;
 }
 
-.work-img {
-	display: inline;
-}
-
-
 .work {
 	margin-bottom: 3em;
+}
+
+.work-img {
+	display: inline;
 }
 
 .git-link {
