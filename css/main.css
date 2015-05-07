@@ -20,10 +20,13 @@ h1 {
 
 h2 {
 	color: #bcbbbb;
+	margin-bottom: 15px;
+	margin-top: 25px;
 }
 
 h3 {
-	color: #bcbbbb;
+	font-size: 2.2em;
+	margin-top: 15px;
 	text-align: center;
 	text-transform: uppercase;
 }
