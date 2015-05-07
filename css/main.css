@@ -1,8 +1,4 @@
 * {
-	border: 1px solid red !important;
-}
-
-* {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
@@ -26,6 +22,10 @@ h2 {
 h3 {
 	text-align: center;
 	text-transform: uppercase;
+}
+
+hr {
+	border-color: #5E6754;
 }
 
 .header {
