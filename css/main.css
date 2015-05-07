@@ -6,7 +6,7 @@
 }
 
 * {
-	color: #5E6754;
+	color: #5e6754;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 }
@@ -14,20 +14,26 @@
 h1 {
 	font-size: 4em;
 	font-weight: 100;
+	margin-bottom: 5px;
+	margin-top: 10px;
 }
 
 h2 {
-	color: #BCBBBB;
+	color: #bcbbbb;
 }
 
 h3 {
-	color: #BCBBBB;
+	color: #bcbbbb;
 	text-align: center;
 	text-transform: uppercase;
 }
 
 hr {
-	border-color: #5E6754;
+	background-color: #bcbbbb;
+	border: 0;
+	height: 0.25em;
+	margin-bottom: 25px;
+	margin-top: 12px;
 }
 
 .tagline {
@@ -35,6 +41,7 @@ hr {
 }
 
 .header {
+	margin-top: 10px;
 	text-align: right;
 	text-transform: uppercase;
 }
