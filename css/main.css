@@ -42,6 +42,19 @@ hr {
 	font-size: 1.5em;
 }
 
+
+/* Navigation */
+.nav-list {
+	/*margin-bottom: 25px;*/
+}
+
+.nav-item {
+  display: inline-block;
+  padding-left: 2em;
+  font: 300 1.4em 'Lato', sans-serif;
+}
+
+
 .works {
 	text-align: center;
 }
