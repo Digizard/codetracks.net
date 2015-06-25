@@ -1,4 +1,6 @@
-					<h3>Side Bar</h3>
+					<h3>Recent Posts</h3>
 					<p>
-						blahblahbla
+						{% for post in site.posts limit: 5 %}
+							<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+						{% endfor %}
 					</p>
