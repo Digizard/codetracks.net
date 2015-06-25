@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-	color: #bcbbbb;
+	color: #ff9528;
 	margin: 25px 0 15px;
 }
 
@@ -22,6 +22,11 @@ h3 {
 	margin-top: 15px;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+a {
+	color: #ff9528;
+	font: 400 1.0em 'Lato', sans-serif;
 }
 
 .page-top {
@@ -42,6 +47,10 @@ hr {
 	font-size: 1.5em;
 }
 
+.content {
+	font: 400 1.4em 'Lato', sans-serif;
+}
+
 
 /* Navigation */
 .nav-list {
@@ -49,9 +58,20 @@ hr {
 }
 
 .nav-item {
-  display: inline-block;
-  padding-left: 2em;
-  font: 300 1.4em 'Lato', sans-serif;
+	display: inline-block;
+	padding-left: 2em;
+	font: 400 1.4em 'Lato', sans-serif;
+}
+
+h4, .nav-item a {
+	color: #bcbbbb;
+}
+
+
+/* Side Bar */
+
+.sidebar {
+	padding-top: 10px;
 }
 
 
@@ -69,4 +89,14 @@ hr {
 
 .git-link {
 	color: #bcbbbb;
+}
+
+.content a {
+	color: #bcbbbb;
+	font: 400 1.0em 'Lato', sans-serif;
+}
+
+.sidebar a {
+	color: #ff9528;
+	font: 400 1.2em 'Lato', sans-serif;
 }
