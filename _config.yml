@@ -2,9 +2,12 @@ name: "Code Tracks"
 description: "Learning Leaves a Trail"
 
 url: "http://codetracks.net"
+assets: "/assets"
 
-paginate: 1
+paginate: 10
 
 markdown: rdiscount
 permalink: pretty
 highlighter: pygments
+gems:
+  - jemoji
