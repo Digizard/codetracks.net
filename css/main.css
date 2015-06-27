@@ -12,12 +12,17 @@ h1 {
 	margin: 7px 0 4px;
 }
 
-h2 {
+.content h2,
+.content h3 {
 	color: #ff9528;
 	margin: 25px 0 15px;
 }
 
-h3 {
+.content h3 {
+	font-weight: 300;
+}
+
+.sidebar h2 {
 	font-size: 2.2em;
 	margin-top: 15px;
 	text-align: center;
@@ -25,8 +30,12 @@ h3 {
 }
 
 a {
-	color: #ff9528;
+	color: #bcbbbb;
 	font: 400 1.0em 'Lato', sans-serif;
+}
+
+.orange {
+	color: #ff9528;
 }
 
 .page-top {
@@ -68,13 +77,32 @@ h4, .nav-item a {
 }
 
 
+/* Content */
+
+.content a {
+	color: #bcbbbb;
+	font: 400 1.0em 'Lato', sans-serif;
+}
+
+.date {
+	font-weight: 300;
+	position: relative;
+	top: -0.5em;
+}
+
+
 /* Side Bar */
 
 .sidebar {
 	padding-top: 10px;
 }
 
+.sidebar a {
+	font: 400 1.2em 'Lato', sans-serif;
+}
 
+
+/* Old code for testing */
 .works {
 	text-align: center;
 }
@@ -89,14 +117,4 @@ h4, .nav-item a {
 
 .git-link {
 	color: #bcbbbb;
-}
-
-.content a {
-	color: #bcbbbb;
-	font: 400 1.0em 'Lato', sans-serif;
-}
-
-.sidebar a {
-	color: #ff9528;
-	font: 400 1.2em 'Lato', sans-serif;
 }
