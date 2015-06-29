@@ -30,7 +30,7 @@ return isThis ||
 
 To make the this line up with spaces, it takes 7 spaces. That's not divisible
 naturally by any set of space choices other than 7 (which would be a weird
-number to pick, but hey, if you're consistent.).
+number to pick, but hey, if you're consistent).
 
 Using tabs, it takes one tab plus 3 spaces.
 
