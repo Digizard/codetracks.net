@@ -22,7 +22,7 @@ video on YouTube, compare the following:
 > I ♥ technology.
 
 They are written different ways (different syntax), but they hold the same
-meaning (same semantics).
+meaning (same semantics). Does that make sense?
 
 
 ### Pre-HTML5 Semantic Tags ###
@@ -32,7 +32,7 @@ days of the internet. You're more than likely using some already.
 
 What makes a tag semantic? It's a tag that provides information on what is
 contained within the element. It tells you what that is supposed to represent or
-be.
+be. Again, semantics are about meaning.
 
 We have paragraph tags (`p`), for instance. When you see that tag what do you
 expect to be in it? A paragraph, right?
@@ -55,53 +55,53 @@ Take this example:
 
 ```html
 <body>
-	<div class="grid">
+  <div class="grid">
 
-		<div class="row">
-			<div class="col-6">
-				<img class="image" src="/img/logo.png" alt="logo">
-				<h1>Site Title</h1>
-			</div>
-			<div class="col-6">
-				<p>Tagline</p>
-			</div>
-		</div>
+    <div class="row">
+      <div class="col-6">
+        <img class="image" src="/img/logo.png" alt="logo">
+        <h1>Site Title</h1>
+      </div>
+      <div class="col-6">
+        <p>Tagline</p>
+      </div>
+    </div>
 
-		<div class="row">
-			<div class="col-12">
-				<h2>Article Title</h2>
-			</div>
-		</div>
+    <div class="row">
+      <div class="col-12">
+        <h2>Article Title</h2>
+      </div>
+    </div>
 
-		<div class="row">
-			<div class="col-12">
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					Illo dolorum nemo cumque cum consequatur sed est reiciendis
-					voluptas soluta suscipit corrupti aperiam, unde, ullam
-					veritatis vel ducimus dignissimos sunt omnis.
-				</p>
-			</div>
-		</div>
+    <div class="row">
+      <div class="col-12">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Illo dolorum nemo cumque cum consequatur sed est reiciendis
+          voluptas soluta suscipit corrupti aperiam, unde, ullam
+          veritatis vel ducimus dignissimos sunt omnis.
+        </p>
+      </div>
+    </div>
 
-		<div class="row">
-			<div class="col-12">
-				<h2>Another Article Title</h2>
-			</div>
-		</div>
+    <div class="row">
+      <div class="col-12">
+        <h2>Another Article Title</h2>
+      </div>
+    </div>
 
-		<div class="row">
-			<div class="col-12">
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					Illo dolorum nemo cumque cum consequatur sed est reiciendis
-					voluptas soluta suscipit corrupti aperiam, unde, ullam
-					veritatis vel ducimus dignissimos sunt omnis.
-				</p>
-			</div>
-		</div>
+    <div class="row">
+      <div class="col-12">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Illo dolorum nemo cumque cum consequatur sed est reiciendis
+          voluptas soluta suscipit corrupti aperiam, unde, ullam
+          veritatis vel ducimus dignissimos sunt omnis.
+        </p>
+      </div>
+    </div>
 
-	</div>
+  </div>
 </body>
 ```
 
@@ -113,63 +113,63 @@ Let's try some HTML5 tags.
 
 ```html
 <body>
-	<div class="grid">
+  <div class="grid">
 
-		<header class="row">
-			<div class="col-6">
-				<img class="image" src="/img/logo.png" alt="logo">
-				<h1>Site Title</h1>
-			</div>
-			<div class="col-6">
-				<p>Tagline</p>
-			</div>
-		</header>
+    <header class="row">
+      <div class="col-6">
+        <img class="image" src="/img/logo.png" alt="logo">
+        <h1>Site Title</h1>
+      </div>
+      <div class="col-6">
+        <p>Tagline</p>
+      </div>
+    </header>
 
-		<main>
+    <main>
 
-			<article>
-				<div class="row">
-					<div class="col-12">
-						<h2>Article Title</h2>
-					</div>
-				</div>
+      <article>
+        <div class="row">
+          <div class="col-12">
+            <h2>Article Title</h2>
+          </div>
+        </div>
 
-				<div class="row">
-					<div class="col-12">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing
-							elit. Illo dolorum nemo cumque cum consequatur sed
-							est reiciendis voluptas soluta suscipit corrupti
-							aperiam, unde, ullam veritatis vel ducimus
-							dignissimos sunt omnis.
-						</p>
-					</div>
-				</div>
-			</article>
+        <div class="row">
+          <div class="col-12">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit. Illo dolorum nemo cumque cum consequatur sed
+              est reiciendis voluptas soluta suscipit corrupti
+              aperiam, unde, ullam veritatis vel ducimus
+              dignissimos sunt omnis.
+            </p>
+          </div>
+        </div>
+      </article>
 
-			<article>
-				<div class="row">
-					<div class="col-12">
-						<h2>Another Article Title</h2>
-					</div>
-				</div>
+      <article>
+        <div class="row">
+          <div class="col-12">
+            <h2>Another Article Title</h2>
+          </div>
+        </div>
 
-				<div class="row">
-					<div class="col-12">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing
-							elit. Illo dolorum nemo cumque cum consequatur sed
-							est reiciendis voluptas soluta suscipit corrupti
-							aperiam, unde, ullam veritatis vel ducimus
-							dignissimos sunt omnis.
-						</p>
-					</div>
-				</div>
-			</article>
+        <div class="row">
+          <div class="col-12">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit. Illo dolorum nemo cumque cum consequatur sed
+              est reiciendis voluptas soluta suscipit corrupti
+              aperiam, unde, ullam veritatis vel ducimus
+              dignissimos sunt omnis.
+            </p>
+          </div>
+        </div>
+      </article>
 
-		</main>
+    </main>
 
-	</div>
+  </div>
 </body>
 ```
 
@@ -190,4 +190,5 @@ For more details on specific tags, and more examples, check these links out:
 
  * ["HTML5 Semantic Elements" by W3Schools](http://www.w3schools.com/html/html5_semantic_elements.asp)
  * ["How to Use The HTML5 Sectioning Elements" by Treehouse](http://blog.teamtreehouse.com/use-html5-sectioning-elements)
+ * ["Let's Talk About Semantics" by HTML5 Doctor](http://html5doctor.com/lets-talk-about-semantics/)
  * [Content Sectioning of "HTML Element Reference" by Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning)
