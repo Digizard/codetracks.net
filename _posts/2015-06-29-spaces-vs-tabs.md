@@ -1,7 +1,7 @@
 ---
 title: Spaces vs. Tabs
 date: 2015-06-29 13:41:00 -0400
-layout: page
+layout: post
 ---
 
 One of the decisions you have to make when starting your own project (if you
@@ -28,17 +28,11 @@ return isThis ||
        isCat;
 ```
 
-```JavaScript
-return isThis ||
-	   isThat ||
-	   isCat;
-```
+To make the this line up with spaces, it takes 7 spaces. That's not divisible
+naturally by any set of space choices than 7 (which would be a weird number to
+pick, but hey, if you're consistent...).
 
-To make the first one with spaces line up, it took 7 spaces. That's not
-divisible naturally by any set of space choices than 7 (which would be a weird
-number to pick, but hey, if you're consistent...).
-
-For the second, which uses tabs, it took one tab plus 3 spaces.
+Using tabs, it takes one tab plus 3 spaces.
 
 If your purpose for not sticking to your choice is because you are trying to
 line things up for what you think is better readability, that's fine. :smile:

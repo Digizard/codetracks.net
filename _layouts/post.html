@@ -1,0 +1,10 @@
+{% include header.html %}
+
+			<h2>{{ page.title }}</h2>
+			<time class="date" xsi:type="xsd:dateTime" datetime="{{ page.date | date_to_xmlschema }}">
+				{{ page.date | date_to_long_string }}
+			</time>
+
+			{{ content }}
+
+{% include footer.html %}

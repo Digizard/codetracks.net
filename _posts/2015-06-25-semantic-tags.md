@@ -1,7 +1,7 @@
 ---
 title: Semantic Tags
 date: 2015-06-25 22:56:00 -0400
-layout: page
+layout: post
 ---
 
 One of my struggles with Project 1 (Build a Portfolio Site) was understanding
