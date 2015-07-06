@@ -4,11 +4,11 @@ body {
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
 	color: #5e6754;
-	font: 400 1.4em 'Lato', sans-serif;
+	font: 400 1.4em "Lato", sans-serif;
 }
 
 h1 {
-	font: 100 4em 'Lato', sans-serif;
+	font: 100 4em "Lato", sans-serif;
 	margin: 7px 0 4px;
 }
 
@@ -31,7 +31,7 @@ h1 {
 
 a {
 	color: #bcbbbb;
-	font: 400 1.0em 'Lato', sans-serif;
+	font: 400 1.0em "Lato", sans-serif;
 }
 
 .orange {
@@ -57,7 +57,7 @@ hr {
 }
 
 .content {
-	font: 400 1.4em 'Lato', sans-serif;
+	font: 400 1.4em "Lato", sans-serif;
 }
 
 
@@ -69,7 +69,7 @@ hr {
 .nav-item {
 	display: inline-block;
 	padding-left: 2em;
-	font: 400 1.4em 'Lato', sans-serif;
+	font: 400 1.4em "Lato", sans-serif;
 }
 
 h4, .nav-item a {
@@ -81,7 +81,7 @@ h4, .nav-item a {
 
 .content a {
 	color: #bcbbbb;
-	font: 400 1.0em 'Lato', sans-serif;
+	font: 400 1.0em "Lato", sans-serif;
 }
 
 .date {
@@ -98,23 +98,19 @@ h4, .nav-item a {
 }
 
 .sidebar a {
-	font: 400 1.2em 'Lato', sans-serif;
+	font: 400 1.2em "Lato", sans-serif;
 }
 
-
-/* Old code for testing */
-.works {
-	text-align: center;
+.footer {
+	height: 75px;
 }
 
-.work {
-	margin-bottom: 3em;
+.highlight {
+	background-color: #222;
+	color: white;
+	font-size: 0.8em;
 }
 
-.work-img {
-	display: inline;
-}
-
-.git-link {
-	color: #bcbbbb;
+pre {
+	padding: 1em;
 }
