@@ -6,7 +6,7 @@ assets: "/assets"
 
 paginate: 10
 
-markdown: rdiscount
+markdown: redcarpet
 permalink: pretty
 highlighter: pygments
 gems:
