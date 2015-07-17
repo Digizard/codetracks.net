@@ -2,6 +2,7 @@
 title: Spaces vs. Tabs
 date: 2015-06-29 13:41:00 -0400
 layout: post
+tags: formatting
 ---
 
 One of the decisions you have to make when starting your own project (if you
