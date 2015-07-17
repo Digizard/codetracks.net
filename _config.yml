@@ -7,7 +7,9 @@ assets: "/assets"
 paginate: 10
 
 markdown: redcarpet
-permalink: pretty
+permalink: /:year/:month/:title/
+timezone: US/Eastern
+
 highlighter: pygments
 gems:
   - jemoji
