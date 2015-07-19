@@ -4,16 +4,28 @@ layout: default
 
 {% for post in paginator.posts %}
 
-			<h2>
+			<h2 class="post-heading">
 				<a href="{{ post.url }}">
 					<span class="orange">{{ post.title }}</span>
 				</a>
 			</h2>
-			<time class="date" xsi:type="xsd:dateTime" datetime="{{ post.date | date_to_xmlschema }}">
-				{{ post.date | date_to_long_string }}
-			</time>
+
+			<div class="post-info">
+				<time class="date" xsi:type="xsd:dateTime" datetime="{{ post.date | date_to_xmlschema }}">
+					{{ post.date | date_to_long_string }}
+				</time>
+				<ul class="tag-list">
+					{% for tag in post.tags %}
+						<li class="tag-item"><a href="{{ site.url }}/tags/#{{ tag }}">#{{ tag }}</a></li>
+					{% endfor %}
+				</ul>
+			</div>
+
+
+			{{ post.excerpt }}
+
+
 			<p>
-				{{ post.excerpt }}
 				<a href="{{ post.url }}">Read Post</a>
 			</p>
 

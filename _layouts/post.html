@@ -1,9 +1,18 @@
 {% include header.html %}
 
-			<h2>{{ page.title }}</h2>
-			<time class="date" xsi:type="xsd:dateTime" datetime="{{ page.date | date_to_xmlschema }}">
-				{{ page.date | date_to_long_string }}
-			</time>
+			<h2 class="post-heading">{{ page.title }}</h2>
+
+			<div class="post-info">
+				<time class="date" xsi:type="xsd:dateTime" datetime="{{ page.date | date_to_xmlschema }}">
+					{{ page.date | date_to_long_string }}
+				</time>
+
+				<ul class="tag-list">
+				{% for tag in page.tags %}
+					<li class="tag-item"><a href="{{ site.url }}/tags/#{{ tag }}">#{{ tag }}</a></li>
+				{% endfor %}
+				</ul>
+			</div>
 
 			{{ content }}
 
